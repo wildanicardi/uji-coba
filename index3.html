@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<title>Wildan Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/w3.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/demo.css">
+<link rel="stylesheet" type="text/css" href="assets/css/pater.css">
+<link rel="stylesheet" type="text/css" href="assets/css/w3.css">
+<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+#portofolio{
+    display: block;
+    /*background-image: url(assets/img/p.jpg);*/
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(assets/img/aku.jpg);
+}
+#portofolio h1{
+    text-align: left;
+    color: blue;
+}
+#about{
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+    background-color: #C0392B;
+}
+#photos{
+    display: block;
+    /*background-image: url(assets/img/p.jpg);*/
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-color: aqua;
+}
+
+body {
+  margin: 0;
+  font-size: 28px;
+  /*background-image: url(assets/img/c.jpg);*/
+}
+
+.header {
+  background-image: url(assets/img/aku.jpg);
+  padding: 30px;
+  text-align: center;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.sticky {
+  position: fixed;
+  z-index: 1;  
+  top: 0;
+  width: 100%
+}
+
+.sticky2 {
+  position: relative;
+  z-index: 1;  
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+<body class="adsila demo-1 loading">
+<main>
+        <div class="content content--intro">
+            <div class="content__inner">
+                <h2 class="content__title"><b>MUHAMMAD ALI WILDAN</b></h2>
+                <h3 class="content__subtitle"><b>PROGRAMMER</b></h3>
+                <a href="#" class="enter">
+            <span style="opacity: 1; color: rgb(255, 255, 255); transform: translateY(0px);">KLIK DISINI</span>
+          </a>
+            </div>
+            <div class="shape-wrap">
+                <svg class="shape" width="100%" height="100vh" preserveAspectRatio="none" viewBox="0 0 1440 800" xmlns:pathdata="http://www.codrops.com/">
+            <path d="M -44,-50 C -52.71,28.52 15.86,8.186 184,14.69 383.3,22.39 462.5,12.58 638,14 835.5,15.6 987,6.4 1194,13.86 1661,30.68 1652,-36.74 1582,-140.1 1512,-243.5 15.88,-589.5 -44,-50 Z" pathdata:id="M -44,-50 C -137.1,117.4 67.86,445.5 236,452 435.3,459.7 500.5,242.6 676,244 873.5,245.6 957,522.4 1154,594 1593,753.7 1793,226.3 1582,-126 1371,-478.3 219.8,-524.2 -44,-50 Z"></path>
+          </svg>
+            </div>
+
+        </div>
+        <script src="assets/js/image.pkgd.min.js"></script>
+        <script src="assets/js/charming.min.js"></script>
+        <script src="assets/js/oke.min.js"></script>
+        <script src="assets/js/jsku.js"></script>
+</main>
+
+<div class="w3-sidebar bar-block w3-card w3-animate-left" style="display:none; opacity: 0.4;" id="mySidebar">
+  <button class="bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <section class="content">
+                  <a class="item" href="#portofolio">
+                    <span class="name">PORTOFOLIO</span>
+                  </a>
+                  <a class="item" href="#about">
+                    <span class="name">ABOUT</span>
+                  </a>
+                  <a class="item" href="#">
+                    <span class="name">CONTACT ME</span>
+                  </a>
+  </section>
+</div>
+
+<div class="header" id="kataku">
+    <h2>Welcome To My Page</h2>
+  <p>I'am Wildan and i'am Web Programmer</p>
+</img>
+</div>
+
+
+<div class="w3-teal" id="navbar">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+</div>
+
+<div id="main">
+
+<div class="navku">
+  <div class="main">
+                <div id="portofolio">
+                    <div class="w3-content display-container w3-center" >
+                      <h3 style="color: blue; "><b>My Portofolio</b></h3>
+                      <hr style="size: 2em;width: 10%;margin: auto;border: 1px white solid;">
+                      <img class="mySlides" src="assets/img/1.jpg" style="width:100%; height: 350px">
+                        <img class="mySlides" src="assets/img/12888.jpg" style="width:100%; height: 350px">
+                        <img class="mySlides" src="assets/img/1.jpg" style="width:100%; height: 350px">
+                    </div>
+                </div>
+
+  </div>
+  <div id="portfolio" style="margin-top:5px;">
+    <section id="photos">
+  <h3 class="w3-center">MY PHOTOS</h3>
+  <hr style="size: 2em;width: 10%;margin: auto;border: 1px white solid;">
+  <p class="w3-center"><em>Here are some of my Photo Collection<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="assets/img/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/haha.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="assets/img/mu.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+</section>
+  <!-- Container (About Section) -->
+<div id="about">
+  <h3 class="w3-center " style="font-family: monospace;font-size: 35px;color: blue;">ABOUT ME</h3>
+  <hr style="size: 2em;width: 10%;margin: auto;border: 1px white solid;">
+  <p class="w3-center "><em>I love photography</em></p>
+  <p class="item name ">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="w3-cell-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="assets/img/1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="300" style="float:left;">
+    </div>
+</div>
+<!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large" style="display: inline;">
+      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+ 
+
+<script>
+          var slideIndex = 0;
+          carousel();
+        
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+              }
+              slideIndex++;
+              if (slideIndex > x.length) {slideIndex = 1} 
+              x[slideIndex-1].style.display = "block"; 
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+        
+          let toFixedNavbar = (eventSelector) => {
+            // Dapetin selector dari menu.
+            let menuSelector = document.querySelector('.menu')
+        
+            // Dapetin jarak scroll dari atas
+            let viewportOffsetTop = eventSelector.scrollTop
+        
+            // Jika jarak lebih dari 0, tambahkan class "is-fixed"
+            // Yang akan membuat
+            if (viewportOffsetTop > 0) {
+              menuSelector.classList.add('is-fixed')
+              eventSelector.classList.add('is-fixed')
+            } else {
+              menuSelector.classList.remove('is-fixed')
+              eventSelector.classList.remove('is-fixed')
+            }
+          }
+
+$("#main").hide()
+$("#kataku").hide()
+// $("#navbar").hide()
+
+$(document).ready(function(){
+    $("a").click(function(){
+      setTimeout(function(){
+        $('main').remove();
+        $('#main').show();
+        $("#kataku").show()
+      }, 1000);
+    });
+});
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+// var kataku = document.getElementById("kataku");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    navbar.classList.remove("sticky2");
+
+  } else {
+    navbar.classList.remove("sticky");
+    navbar.classList.add('sticky2');
+  }
+}
+
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</body>
+</html>
